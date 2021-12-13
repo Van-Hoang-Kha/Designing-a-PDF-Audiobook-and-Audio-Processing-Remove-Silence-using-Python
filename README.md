@@ -17,21 +17,21 @@ Here is the project flow diagram:
 * Lastly, we get the Pygame mixer to play the audio file loud.
 ### Prerequisite software
 ### The software libraries required to run this code can be installed using:
-``` pip install Pillow ```           # -------- image reader library.
+* ``` pip install Pillow ```           # -------- image reader library.
 
-``` pip install PyMuPDF ```          # -------- library to convert PDF page to image.
+* ``` pip install PyMuPDF ```          # -------- library to convert PDF page to image.
 
-``` pip install pytesseract ```      # -------- Image to text converting Optical Character Recognition library.
+* ``` pip install pytesseract ```      # -------- Image to text converting Optical Character Recognition library.
 
-``` pip install pygame ```           # -------- pygame to play audio.
+* ``` pip install pygame ```           # -------- pygame to play audio.
 
-``` pip install gTTS ```            # -------- Google Text To Speech.
+* ``` pip install gTTS ```            # -------- Google Text To Speech.
 
-``` pip install pysimplegui ```      # -------- This library makes GUI development far simpler than tkinter.
+* ``` pip install pysimplegui ```      # -------- This library makes GUI development far simpler than tkinter.
 
-``` pip install tesseract ```       
+* ``` pip install tesseract ```       
 
-``` pip install tesseract-ocr ```
+* ``` pip install tesseract-ocr ```
 
 ### Conclusion
 It was seen that the code performs really well in reading straightforward PDF text files, however, if equations are involved in the text, then the reader cannot properly read the equations. Hence, the code is good for simple text but not for scientific papers as it will fumble reading the equations. However, text will be read just fine.
